@@ -1,0 +1,23 @@
+{
+	"name": "m1guelpf/php-evm",
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"M1guelpf\\EVM\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Miguel Piedrafita",
+			"email": "soy@miguelpiedrafita.com",
+			"homepage": "https://miguelpiedrafita.com"
+		}
+	],
+	"require": {
+		"larapack/dd": "^1.1",
+		"illuminate/collections": "^9.0",
+		"illuminate/support": "^9.0",
+		"symfony/finder": "^6.0"
+	}
+}
